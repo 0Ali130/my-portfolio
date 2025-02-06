@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtiaz Ali - Virtual Assistant & Data Entry Specialist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 30px 0;
+        }
+        .gallery a {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            color: #2c3e50;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .gallery a h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .contact {
+            text-align: center;
+            padding: 40px 20px;
+            background: #fff;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Imtiaz Ali</h1>
+        <p>Virtual Assistant & Data Entry Specialist</p>
+    </header>
+    
+    <div class="container">
+        <section class="gallery">
+            <h2 style="width: 100%; text-align: center; margin-bottom: 20px;">My Work</h2>
+            <!-- Replace 'href' with actual file links or upload them later -->
+            <a href="Wholesalers_sheet.xlsx" download>
+                <h3>Wholesalers Sheet</h3>
+                <p>Click to download the data of various wholesalers.</p>
+            </a>
+            <a href="Fundraiser+Tracking+sheet.xlsx" download>
+                <h3>Fundraiser Tracking Sheet</h3>
+                <p>Track fundraiser donations and progress.</p>
+            </a>
+            <a href="kmdggsvdzqxd2lbep2oh.pdf" download>
+                <h3>Industrial Training Report</h3>
+                <p>Detailed report on industrial training activities.</p>
+            </a>
+            <a href="ixjeal14yqeuoisjyv19.pdf" download>
+                <h3>Vehicle Accident Detection Report</h3>
+                <p>Analysis of vehicle accident detection system.</p>
+            </a>
+        </section>
+    
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Imtiaz Ali | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
