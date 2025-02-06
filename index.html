@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #2c3e50;
+            color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section {
+            margin: 50px 0;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .work-items {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .work-item {
+            width: 48%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, filter 0.3s;
+        }
+
+        .work-item:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+
+        .work-item h3 {
+            font-size: 1.6em;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        .work-item p {
+            font-size: 1em;
+            color: #7f8c8d;
+        }
+
+        .work-item img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: transform 0.3s;
+        }
+
+        .work-item img:hover {
+            transform: scale(1.1);
+        }
+
+        .highlight {
+            position: relative;
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.7);
+            filter: blur(8px);
+            z-index: -1;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Professional Portfolio</h1>
+        <p>Showcasing My Work with Passion and Precision</p>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>My Services</h2>
+            <div class="highlight">
+                <p>Data Entry | Data Scraping | Google Sheets | MS Word, Excel, PowerPoint | Handwritten Assignments | Image to Text | Report Writing | Final Year Thesis Work</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>My Work</h2>
+            <div class="work-items">
+                <!-- Work Item 1 -->
+                <div class="work-item">
+                    <h3>Data Entry Project</h3>
+                    <p>Efficiently processed large volumes of data for clients in various industries. Ensured data accuracy and integrity.</p>
+                    <img src="https://via.placeholder.com/500" alt="Project Image 1">
+                </div>
+                <!-- Work Item 2 -->
+                <div class="work-item">
+                    <h3>Excel Spreadsheet Management</h3>
+                    <p>Created and managed complex spreadsheets, automating tasks and reports using formulas and macros for enhanced productivity.</p>
+                    <img src="https://via.placeholder.com/500" alt="Project Image 2">
+                </div>
+                <!-- Work Item 3 -->
+                <div class="work-item">
+                    <h3>Report Writing</h3>
+                    <p>Developed comprehensive reports and research papers for academic and business purposes, focusing on clarity and precision.</p>
+                    <img src="https://via.placeholder.com/500" alt="Project Image 3">
+                </div>
+                <!-- Work Item 4 -->
+                <div class="work-item">
+                    <h3>Data Scraping Project</h3>
+                    <p>Utilized web scraping techniques to collect large datasets from various sources, ensuring clean and usable data for analysis.</p>
+                    <img src="https://via.placeholder.com/500" alt="Project Image 4">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
